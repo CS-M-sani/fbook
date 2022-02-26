@@ -1,0 +1,114 @@
+
+header{
+    background-color: rgba(2, 39, 107, 0.981);
+   
+    color: white;
+   
+    width: 100%;
+
+    
+}
+.root{
+    
+    display: flex;
+    justify-content: space-around;
+   
+    
+}
+.left{
+}
+
+.all{
+
+    display: flex;
+ 
+    
+
+}
+label{
+    display: block;
+}
+
+
+
+.contener{
+    background-color: rgb(208, 216, 215) ;
+    height: 500px;
+    padding-top:50px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+.contener{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.abc{
+    margin-left: 1%;
+}
+
+.MMM{
+    width: 60px;
+    height: 25px;
+    margin-top: 5%;
+    background-color: rgb(66, 66, 240);
+    margin-left: 1%;
+}
+
+
+.see{
+ width: 40px;
+ height: 40px;
+ margin-top: 5%;
+
+}
+
+
+.st1{
+    margin-left: 10%;
+    
+}
+
+.lign{
+    display: flex;
+}
+
+
+.vert{
+    background-color: rgb(144, 201, 87);
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+}
+
+@media (max-width: 600px) { 
+    .contener{
+        display: block;
+        justify-content: space-around;
+    }
+
+    .root{
+    
+        display:block;
+        justify-content: space-around;
+       
+        
+    }
+    .all{
+
+        display: block;
+        flex-basis: 100%;
+     
+        
+    
+    }
+ }
+
+ *{
+     margin: 0;
+     padding: 0;
+ }
